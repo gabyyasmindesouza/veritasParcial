@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #2F9648;
+    height: 10%;
+    padding: 10px;
+}
+
+#Logo_header{
+    width: 90px;
+}
+
+#Sobre_site{
+    font-size: large;
+    padding: 15px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #127B2C;
+    display: flex;
+    margin-right: 10px;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aleo', serif;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+}
+
+#div_header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#usuario{
+    width: 70px;
+}
+
+main{
+    min-height: 87vh;
+    background-color: #cafdc2;
+}
+
+#TituloClassificacao{
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+    padding: 15px;
+}
+
+#DivLivrosTodos{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#DivLivros1{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros2{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros3{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros4{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros5{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros6{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros7{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros8{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros9{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivGradiente{
+    background-image: linear-gradient(#cafdc2, #2F9648);
+    width: 100%;
+    height: 30px;
+}
+
+#DivFooterPrincipal{
+    background-color: #2F9648;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+#DivFooterLogo{
+    background-color: aqua;
+    width: 50%;
+    height: 60px;
+}
+
+#DivLogoFooter{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 110px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#LogoFooter{
+    width: 20%;
+    margin-left: 130px;
+}
+
+#DivFraseFooter{
+    /* background-color: red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#Frase{
+    display: flex;
+    text-align: center;
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+    font-size: 15px;
+    margin-left: 120px;
+}
+
+#DivContatosPrincipal{
+    background-color: aquamarine;
+    width: 50%;
+    height: 200px;
+}
+
+#DivTituloContatos{
+    background-color: #faff96;
+    width: 100%;
+    height: 36px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TituloContatos{
+    color: #0B4719;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+#DivContatos{
+    background-color: rgb(193, 209, 255);
+    width: 100%;
+    height: 130px;
+}
+
+#DivInsta{
+    /* background-color: rgb(61, 164, 255); */
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+#IconeInsta{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+#Instagram{
+    color: #0B4719;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Aleo', serif;
+}
+
+#DivEmail{
+    /* background-color: rgb(255, 72, 176); */
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+#IconeEmail{
+    width: 85px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+#Email{
+    color: #0B4719;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Aleo', serif;
+}
+

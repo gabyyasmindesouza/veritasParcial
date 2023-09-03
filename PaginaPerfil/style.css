@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #2F9648;
+    height: 10%;
+    padding: 20px;
+}
+
+#BotaoVoltar{
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #127B2C;
+    margin-right: 20px;
+    align-items: center;
+    height: 50px;
+    font-family: 'Aleo', serif;
+    justify-content: center;
+}
+
+#divHeader{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+}
+
+#LogoHeader{
+    width: 90px;
+}
+
+main{
+    min-height: 85vh;
+    background-color: #cafdc2;
+    display: flex;
+}
+
+nav{
+    background-color: #57B66E;
+    height: 625px;
+    width: 300px;
+}
+
+#DivImagemPerfil{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#ImagemPerfil{
+    width: 200px;
+}
+
+#DivNomePerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#NomePerfil{
+    padding: 10px;
+    color: #052f0f;
+}
+
+#DivTextoPrincipal{
+    height: 70px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px;  */
+}
+
+#TextoPrincipal{
+    color: #052f0f;
+    font-family: 'Lobster', cursive;
+}
